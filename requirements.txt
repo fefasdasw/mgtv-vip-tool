@@ -1,0 +1,9 @@
+# mgtv_vip_downloader.py 的可选依赖
+# 脚本能在零安装状态下运行（HTTP 走标准库 urllib，AES 走 cryptography），
+# 装了下面这些只是让 HTTP 层走 requests、AES 走 pycryptodome，速度略好。
+
+requests>=2.28
+
+# AES 后端二选一即可，两个都装也没问题
+pycryptodome>=3.18
+# cryptography>=41

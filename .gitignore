@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# 虚拟环境
+.venv/
+venv/
+env/
+ENV/
+
+# 下载内容与产物（绝对不要提交）
+下载/
+播放页/
+*.mp4
+*.ts
+*.m4s
+*.part
+*.parts/
+*.tmp
+试片*
+对比_*
+左右对比*
+增强_*
+
+# 测试残留
+_selftest_tmp/
+_*.py
+tools/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 日志
+*.log
